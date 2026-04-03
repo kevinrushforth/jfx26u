@@ -14,7 +14,6 @@ Issue key | Summary | Subcomponent
 [JDK-8154847](https://bugs.openjdk.org/browse/JDK-8154847) | Rendering is incorrect or not visible with StageStyle.UNIFIED on some graphics cards | graphics
 [JDK-8377153](https://bugs.openjdk.org/browse/JDK-8377153) | JavaFX FlowPane layout causing improper wrapping of TextFlow nodes with max-width styling | graphics
 [JDK-8368572](https://bugs.openjdk.org/browse/JDK-8368572) | Update WebKit to 623.1 | web
-[JDK-8376282](https://bugs.openjdk.org/browse/JDK-8376282) | [linux, macos] JavaFX fails to build WebKit in DebugNative | web
 [JDK-8377099](https://bugs.openjdk.org/browse/JDK-8377099) | Additional WebKit 623.1 fixes from WebKitGTK 2.50.4 | web
 [JDK-8377930](https://bugs.openjdk.org/browse/JDK-8377930) | Additional WebKit 623.1 fixes from WebKitGTK 2.50.5 | web
 [JDK-8380557](https://bugs.openjdk.org/browse/JDK-8380557) | Additional WebKit 623.1 fixes from WebKitGTK 2.50.6 | web
