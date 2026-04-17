@@ -6,6 +6,18 @@ The following notes describe important changes and information about this releas
 
 These notes document the JavaFX 26.0.1 update release. As such, they complement the [JavaFX 26](https://github.com/openjdk/jfx26u/blob/master/doc-files/release-notes-26.md) release notes.
 
+## Known Issues
+
+### Media Playback Does Not Work on Ubuntu 26.04
+
+Media playback does not work on Ubuntu 26.04. This affects most media formats such as MP4 with H.264/H.265, MP3, AAC, and HTTP Live Streaming. This is because JavaFX Media does not support libavcodec version 62. Support for libavcodec version 62 will be added with [JDK-8378510](https://bugs.openjdk.org/browse/JDK-8378510). As a workaround, install libavcodec version 61 compiled with support for at least the following:
+
+- decoder: aac, mp3, mp3float, h264, hevc
+- parser: aac, h264, hevc
+- demuxer: aac, h264, hevc, mpegts, mpegtsraw
+
+See [JDK-8378510](https://bugs.openjdk.org/browse/JDK-8378510) for more information.
+
 ## List of Fixed Bugs
 
 Issue key | Summary | Subcomponent
